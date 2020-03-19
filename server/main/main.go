@@ -19,7 +19,7 @@ func process2(conn net.Conn) {
 	}
 }
 func init() {
-	initPool("localhost:6379", 16, 0, 300*time.Second)
+	initPool("localhost:26379", 16, 0, 300*time.Second)
 	initUserDao()
 }
 func initUserDao() {
